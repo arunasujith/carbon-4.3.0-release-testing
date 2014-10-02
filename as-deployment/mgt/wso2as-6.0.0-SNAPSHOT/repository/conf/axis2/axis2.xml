@@ -697,8 +697,8 @@
                 <port>4000</port>
             </member>
 	    <member>
-                <hostName>172.31.7.215</hostName>
-                <port>4000</port>
+                <hostName>172.31.7.214</hostName>
+                <port>4500</port>
             </member>
 
         </members>
