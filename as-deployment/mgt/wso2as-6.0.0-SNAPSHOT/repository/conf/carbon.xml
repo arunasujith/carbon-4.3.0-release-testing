@@ -502,13 +502,13 @@
 	and in  worker nodes set only AutoCheckout to true.
     -->
     <DeploymentSynchronizer>
-        <Enabled>false</Enabled>
-        <AutoCommit>false</AutoCommit>
+        <Enabled>true</Enabled>
+        <AutoCommit>true</AutoCommit>
         <AutoCheckout>true</AutoCheckout>
         <RepositoryType>svn</RepositoryType>
         <SvnUrl>http://svnrepo.example.com/repos/</SvnUrl>
-        <SvnUser>username</SvnUser>
-        <SvnPassword>password</SvnPassword>
+        <SvnUser>aruna</SvnUser>
+        <SvnPassword>aruna</SvnPassword>
         <SvnUrlAppendTenantId>true</SvnUrlAppendTenantId>
     </DeploymentSynchronizer>
 
